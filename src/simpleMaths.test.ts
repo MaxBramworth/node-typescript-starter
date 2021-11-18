@@ -8,6 +8,6 @@ test('Area Triangle', () => {
     expect(calcAreaTriangle(4, 5)).toBe(10);
 })
 
-test('Factorial', () => {
+test('Area Rectangle', () => {
     expect(calcAreaRectangle(5, 10)).toBe(50);
 })
