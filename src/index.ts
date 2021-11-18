@@ -7,7 +7,7 @@ const simpleLogger = winston.createLogger({
 });
 
 function sayHello(name: string): void {
-    simpleLogger.info(`Hello ${name}`)
+    simpleLogger.info(`Hello ${name}`);
 }
 
 sayHello('Mr Sharp')
